@@ -1,5 +1,5 @@
 # Java and OOP Programming
    
-## Written by Ravi Dudhagra
+*A series of Java programming exercises I use to teach object-oriented programming to young students*
 
-Github: https://github.com/rdudhagra
+Written by Ravi Dudhagra -- https://github.com/rdudhagra
