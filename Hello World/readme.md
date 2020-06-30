@@ -1,6 +1,47 @@
+<style>
+    div {
+        page-break-inside: avoid;
+        /* Keeps code blocks on the same page */
+    }
+    h2 {
+        page-break-before: always;
+        /* Each section on new page */
+    }
+</style>
+
 # Java Programming Exercises - Hello World
+### Written by Ravi Dudhagra -- [https://github.com/rdudhagra](https://github.com/rdudhagra)
 
 Welcome! This guide will show you the basics of Java syntax and proper code style. Work through this guide by completing the tasks listed on their respective code files.
+
+<h2 style="page-break-before: auto">Contents</h2>
+
+  - [Let's Print!](#lets-print)
+    - [**Task 1**](#task-1)
+    - [**Task 2**](#task-2)
+  - [Comments](#comments)
+    - [**Task 3**](#task-3)
+  - [Running your code](#running-your-code)
+  - [Variables and expressions](#variables-and-expressions)
+    - [**Task 4**](#task-4)
+    - [**Task 5**](#task-5)
+    - [**Task 6**](#task-6)
+  - [Conditional Logic](#conditional-logic)
+    - [**Task 7**](#task-7)
+    - [**Task 8**](#task-8)
+  - [Loops](#loops)
+    - [`for` loops](#for-loops)
+    - [A brief detour to talk about scope:](#a-brief-detour-to-talk-about-scope)
+    - [`while` loops](#while-loops)
+    - [**Task 9**](#task-9)
+    - [**Task 10**](#task-10)
+    - [**Task 11**](#task-11)
+    - [**Task 12**](#task-12)
+    - [**Task 13**](#task-13)
+    - [**Task 14**](#task-14)
+    - [**Task 15** *(bonus)*](#task-15-bonus)
+
+
 
 ## Let's Print!
 
@@ -45,6 +86,8 @@ Print a message that indicates that your code is working on Task 2.
 
 ---
 
+
+
 ## Comments
 
 Comments are extremely important when documenting what your code does. A comment is a piece of text that is not considered part of the code. In Java, there are multiple ways to write a comment.
@@ -79,6 +122,8 @@ some other code
 
 ---
 
+
+
 ## Running your code
 
 Let's take a quick segue and talk about how to actually run your Java code. There are two steps to running a Java program (enter these commands in your terminal in the same directory as the Java file):
@@ -96,6 +141,8 @@ Some code editors have a feature where it can run your Java file for you. In tha
 Try running your file. If you completed the above tasks correctly, you should encounter no errors, and see the messages that you wrote for Tasks 1 and 2 in your terminal window.
 
 ---
+
+
 
 ## Variables and expressions
 
@@ -206,6 +253,8 @@ Next to each line, write the value of what you think the expression will be in a
 
 ---
 
+
+
 ## Conditional Logic
 
 We want our code to be able to 'think' on it's own, to be able to do different things based on different states. One way we can do that is through an `if` statement. An `if` statement allows you to perform a specific block of code **only** if an expression evaulates to `true`. We write `if` statements as follows:
@@ -268,6 +317,8 @@ int y = myString.length(); // y == 15
 ```
 
 ---
+
+
 
 ## Loops
 
