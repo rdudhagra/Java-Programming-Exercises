@@ -1,4 +1,4 @@
-<style>
+<!-- <style> /* Comment in when exporting to pdf to add page breaks */
     div {
         page-break-inside: avoid;
         /* Keeps code blocks on the same page */
@@ -7,7 +7,7 @@
         page-break-before: always;
         /* Each section on new page */
     }
-</style>
+</style> -->
 
 # Java Programming Exercises - Hello World
 ### Written by Ravi Dudhagra -- [https://github.com/rdudhagra](https://github.com/rdudhagra)
